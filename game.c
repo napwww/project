@@ -11,7 +11,7 @@ int bullet_x, bullet_y;//子弹的位置
 int enemy_x, enemy_y;//敌人的位置 
 int map[MAX][MAX];
 /*0表示空白，1表示战机*的区域，2表示敌人战机的位置。
-3表示上下围墙，4表示左右围墙,5表示子弹的位置*/
+3表示上下围墙，4表示左右围墙,5表示子弹的位置*/  
 int score;
 void starup()//初始化所有的信息 
 {
