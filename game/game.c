@@ -15,7 +15,7 @@ int map[MAX][MAX];
 int score;
 void starup()//初始化所有的信息 
 {
-    high = 20;
+    high = 20; 
     width = 30;
     position_x = high / 2;
     position_y = width / 2;
